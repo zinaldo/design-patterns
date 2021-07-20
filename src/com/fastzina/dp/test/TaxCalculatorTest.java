@@ -3,8 +3,8 @@ package com.fastzina.dp.test;
 import java.math.BigDecimal;
 
 import com.fastzina.dp.model.Budget;
-import com.fastzina.dp.service.ICMSTax;
-import com.fastzina.dp.service.TaxCalculator;
+import com.fastzina.dp.service.tax.ICMSTax;
+import com.fastzina.dp.service.tax.TaxCalculator;
 
 public class TaxCalculatorTest {
 	public static void main(String[] args) {

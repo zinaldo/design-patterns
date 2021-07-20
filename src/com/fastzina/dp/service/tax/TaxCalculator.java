@@ -1,4 +1,4 @@
-package com.fastzina.dp.service;
+package com.fastzina.dp.service.tax;
 
 import java.math.BigDecimal;
 
