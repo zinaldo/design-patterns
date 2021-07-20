@@ -15,4 +15,14 @@ public class DiscountZero extends Discount {
 		return BigDecimal.ZERO;
 	}
 
+	@Override
+	public BigDecimal applyDiscount(Budget budget) {
+		return BigDecimal.ZERO;
+	}
+
+	@Override
+	public boolean isDiscountable(Budget budget) {
+		return true;
+	}
+
 }
